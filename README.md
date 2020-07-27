@@ -1,5 +1,6 @@
-![alt logo](https://i.imgur.com/5G9H63E.png)
-![alt logo](https://github.com/dimanik94/react-redux-apollo-authentication/raw/master/src/assets/logos/intro.gif)
+![alt intro](https://github.com/dimanik94/react-redux-apollo-authentication/raw/master/src/assets/logos/intro.gif)
+***
+![alt logos](https://github.com/dimanik94/react-redux-apollo-authentication/raw/master/src/assets/logos/logos.png)
 ***
 ### Backend:
 https://github.com/saneksa/graphql-test-authorization
