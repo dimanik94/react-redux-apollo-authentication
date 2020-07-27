@@ -1,0 +1,65 @@
+.customInput {
+	display: flex;
+	margin-bottom: 12px;
+	align-items: center;
+}
+
+.customInput label {
+	color: #999;
+}
+
+.customInput p {
+	margin: 0;
+	margin-top: 3px;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.customInput input {
+	padding: 6px 12px;
+	border: 1px solid #D6DCE9;
+	border-radius: 4px;
+	width: 100%;
+	color: #6879BB;
+	outline: none;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.customInput input::placeholder {
+	color: #ccc;
+}
+
+.customInput input:disabled {
+	background-color: #F5F5F5;
+	color: rgba(51, 51, 51, 0.5);
+}
+
+.customInput input:not([disabled]):hover {
+	color: #415FD5;
+	border-color: #415FD5;
+}
+
+.inputBlock {
+	flex: 2 1 250px;
+}
+
+.inputWrapper {
+	position: relative;
+}
+
+.inputWrapper span {
+	cursor: pointer;
+	position: absolute;
+	top: 7px;
+	right: 12px;
+}
+
+.customInput.error input,
+.customInput.error input:hover {
+	border-color: #EE4141;
+}
+
+.customInput.error p {
+	color: #EE4141;
+}

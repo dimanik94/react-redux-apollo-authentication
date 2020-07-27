@@ -1,0 +1,44 @@
+.editFormHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0 12px 0;
+}
+
+.editFormHeader button{
+	margin: 0;
+	max-width: 116px;
+}
+
+.editFormCurrentUserName {
+	font-size: 26px;
+	line-height: 48px;
+	color: #404064;
+	margin: 0;
+}
+
+.editFormBody {
+	background: white;
+	padding: 24px;
+}
+
+.editFromFlexOuter {
+	max-width: 696px;
+}
+.editFromFlexOuter label {
+	flex: 1 1 150px;
+	max-width: 260px;
+	margin-right: 5px;
+}
+
+@media (max-width: 575px) {
+	.editFormCurrentUserName {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.editFormCurrentUserName {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,29 @@
+.mainLayout {
+	height: 100%;
+	background: linear-gradient(213.6deg, #6879BB 2.47%, #9300BB 95.42%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper {
+	height: 100%;
+	max-width: 468px;
+	padding: 0 22px;
+	margin: 0 auto;
+	
+}
+
+.logo {
+	text-align: center;
+	padding: 2rem;
+}
+.logo img{
+	vertical-align: middle;
+}
+
+.main {
+	background-color: white;
+	padding: 2.25rem 3rem;
+	min-height: calc(100vh - 112px);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+}

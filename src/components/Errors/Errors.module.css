@@ -1,0 +1,30 @@
+.errors {
+	margin: 24px -48px;
+	padding: 0 48px;
+	background-color: #FFE9DB;
+}
+
+.errorsBlock ul {
+	position: relative;
+	padding: 36px 0;
+	margin: 0;
+	list-style: none;
+	padding-left: 72px;
+}
+
+.errorsBlock ul::before {
+	position: absolute;
+	content: '';
+	width: 48px;
+	height: 48px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	background-color: lightgray;
+	background: url('./../../assets/icons/attention_icon.svg') no-repeat center;
+}
+
+
+.errorsBlock ul li {
+	line-height: 24px;
+}

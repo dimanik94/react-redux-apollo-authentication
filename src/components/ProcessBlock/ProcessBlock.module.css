@@ -1,0 +1,273 @@
+.process {
+	background-color: white;
+}
+
+.process:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.process h3 {
+	font-size: 22px;
+	line-height: 36px;
+	color: #6879BB;
+	margin: 0;
+}
+
+.processHeader h5 {
+	font-size: 12px;
+	line-height: 24px;
+	color: #6879BB;
+	opacity: 0.5;
+	margin: 0;
+	padding-right: 24px;
+	position: relative;
+	margin-left: 5px;
+}
+
+.processHeader h5::after {
+	content: '';
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	background-color: lightgray;
+	background: url('./../../assets/icons/arrow_to_right_icon.svg') no-repeat center;
+}
+
+.processHeader {
+	padding: 12px 24px;
+	border-bottom: 1px solid #D6DCE9;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.processBody {
+	padding: 12px 24px;
+}
+
+.processFlexOuter {
+	max-width: 1092px;
+	display: flex;
+	margin: 0 -24px;
+	flex-wrap: wrap;
+}
+
+.processItems {
+	width: calc(100% / 12 * 3 - 48px);
+	margin: 24px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 1023px) {
+	.processItems {
+		width: calc(100% / 12 * 6 - 48px);
+	}
+}
+
+@media screen and (max-width: 527px) {
+	.processItems {
+		width: calc(100% / 12 * 12 - 48px);
+	}
+}
+
+.numberOfExecutions h1 {
+	margin: 0;
+	line-height: 30px;
+	color: #535374;
+	font-size: 26px;
+	padding-left: 36px;
+	position: relative;
+}
+
+.numberOfExecutions h1::before {
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	background-color: lightgray;
+	background: url('./../../assets/icons/numberOfExecutions_icon.svg') no-repeat center;
+	opacity: 0.5;
+}
+
+.numberOfExecutions h5 {
+	margin: 0;
+	line-height: 24px;
+	color: #999999;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 36px;
+}
+.averageLeadTime {
+	margin-bottom: 24px;
+}
+.averageLeadTime h3 {
+	margin: 0;
+	line-height: 24px;
+	color: #535374;
+	font-size: 18px;
+	padding-left: 36px;
+	position: relative;
+}
+
+.averageLeadTime h3::before {
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	background-color: lightgray;
+	background: url('./../../assets/icons/averageLeadTime_icon.svg') no-repeat center;
+	opacity: 0.5;
+}
+
+.averageLeadTime h5 {
+	margin: 0;
+	line-height: 24px;
+	color: #999999;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 36px;
+}
+
+.averageActiveTime h3 {
+	margin: 0;
+	line-height: 24px;
+	color: #535374;
+	font-size: 18px;
+	padding-left: 36px;
+	position: relative;
+}
+
+.averageActiveTime h3::before {
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	background-color: lightgray;
+	background: url('./../../assets/icons/averageActiveTime_icon.svg') no-repeat center;
+	opacity: 0.5;
+}
+
+.averageActiveTime h5 {
+	margin: 0;
+	line-height: 24px;
+	color: #999999;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 36px;
+}
+
+.employeesInvolvedProcess {
+	margin-bottom: 24px;
+}
+.employeesInvolvedProcess h3 {
+	margin: 0;
+	line-height: 24px;
+	color: #535374;
+	font-size: 18px;
+	padding-left: 36px;
+	position: relative;
+}
+
+.employeesInvolvedProcess h3::before {
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	background-color: lightgray;
+	background: url('./../../assets/icons/employeesInvolvedProcess_icon.svg') no-repeat center;
+	opacity: 0.5;
+}
+
+.employeesInvolvedProcess h5 {
+	margin: 0;
+	line-height: 24px;
+	color: #999999;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 36px;
+}
+
+.numberOfScenarios h3 {
+	margin: 0;
+	line-height: 24px;
+	color: #535374;
+	font-size: 18px;
+	padding-left: 36px;
+	position: relative;
+}
+
+.numberOfScenarios h3::before {
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	background-color: lightgray;
+	background: url('./../../assets/icons/numberOfScenarios_icon.svg') no-repeat center;
+	opacity: 0.5;
+}
+
+.numberOfScenarios h5 {
+	margin: 0;
+	line-height: 24px;
+	color: #999999;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 36px;
+}
+.start, .end, .loading {
+	display: flex;
+}
+.start h5,
+.end h5,
+.loading h5{
+	margin: 0;
+	font-weight: normal;
+}
+.start, .end {
+	margin-bottom: 12px;
+}
+
+.processItems h5:first-child {
+	color: #999;
+	flex: 1 0;
+}
+
+.processItems h5:last-child {
+	flex: 1 0;
+}
+
+.processItemsFlexOuter {
+	max-width: 190px;
+}
+
+@media (max-width: 767px) {
+	.process h3 {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 575px) {
+	.process h3 {
+		font-size: 16px;
+	}
+}

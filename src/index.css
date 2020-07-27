@@ -1,0 +1,51 @@
+html {
+	font-size: 16px;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body,
+#root {
+	min-height: 100vh;
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Opens Sans', sans-serif;
+	font-size: 0.875rem;
+	font-weight: 400;
+	color: #333;
+	line-height: 1.1875rem;
+}
+
+a {
+	text-decoration: none;
+	color: #3167BA;
+}
+
+a,
+a:hover,
+input,
+input:hover,
+button,
+button:hover {
+	transition: all .3s ease-in-out;
+}
+
+h3 {
+	margin: 0;
+	margin-bottom: 20px;
+	color: #404064;
+	font-size: 18px;
+	line-height: 24px;
+}

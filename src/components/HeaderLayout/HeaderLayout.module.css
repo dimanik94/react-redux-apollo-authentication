@@ -1,0 +1,147 @@
+header {
+	background: #FFFFFF;
+	box-shadow: 0px 1px 10px rgba(104, 121, 187, 0.1);
+	position: relative;
+}
+
+.wrapper {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.menuButton {
+	display: inline-block;
+	color: #6879BB;
+	line-height: 1.5rem;
+	cursor: pointer;
+	padding: 18px 36px;
+	position: relative;
+	font-weight: 700;
+}
+
+.menuButton::before {
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background: url('./../../assets/icons/menu_icon.svg') no-repeat center;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.navigationDrawer {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	max-width: 224px;
+	height: 100%;
+	background-color: #404064;
+	box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.3);
+	transform: translate3d(-100%, 0, 0);
+	transition: transform 0.3s ease-in-out;
+}
+
+.navigationDrawer.opened {
+	transform: translate3d(0, 0, 0);
+}
+
+.logo {
+	padding: 1.125rem 1.5rem;
+	background: #535374;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.logoWrapper {
+	position: relative;
+	padding-left: 2.25rem;
+}
+
+.logoWrapper img {
+	vertical-align: middle;
+}
+
+.logoWrapper:before {
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background: url('./../../assets/icons/drawer_logo_icon.svg') no-repeat center;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.headerLayout ul {
+	margin: 0;
+	padding: 1.125rem 1.5rem;
+	list-style: none;
+}
+
+.headerLayout ul li {
+	position: relative;
+	margin-bottom: 2.25rem;
+	padding-left: 2.25rem;
+}
+
+.headerLayout ul li:before {
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background-color: lightgray;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.headerLayout ul li:first-child:before {
+	background: url('./../../assets/logos/username_logo.svg') no-repeat center;
+}
+
+.headerLayout ul li:nth-child(2):before {
+	background: url('./../../assets/logos/processeslist_logo.svg') no-repeat center;
+}
+
+
+.headerLayout ul li a {
+	color: #fff;
+	line-height: 1.5rem;
+}
+
+.headerLayout ul li a.active {
+	font-weight: 700;
+}
+
+.backDrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 50;
+	background-color: rgba(32, 38, 43, .5);
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out;
+}
+
+.backDrop.opened {
+	opacity: 1;
+	visibility: visible;
+}
+
+.main {
+	background-color: #EBF2FB;
+	min-height: calc(100vh - 60px);
+}
+
+.mainWrapper {
+	max-width: 1440px;
+	position: relative;
+	margin: 0 auto;
+	padding: 24px 22px;
+	min-height: calc(100vh - 60px);
+}
